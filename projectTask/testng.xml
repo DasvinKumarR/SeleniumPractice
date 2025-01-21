@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.projectTask.testCases.MakeMyTripTestcase"/>
+      <class name="com.projectTask.testCases.SeleniumTestcase"/>
+      <class name="com.projectTask.testCases.AlertTestcase"/>
+      <class name="com.projectTask.testCases.MultiWindowTestcase"/>
+      <class name="com.projectTask.testCases.CaseStudy"/>
+      <class name="com.projectTask.testCases.CreateAndWriteDataInExcel"/>
+      <class name="com.projectTask.testCases.DemoCartRegisteration"/>
+      <class name="com.projectTask.testCases.DemoCartLinkTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
